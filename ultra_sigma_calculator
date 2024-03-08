@@ -1,0 +1,12 @@
+import numexpr
+from colorama import init
+from colorama import Fore, Back, Style
+init()
+
+print(Fore.WHITE)
+
+expr = input("Enter a mathematical operation: ")
+result = numexpr.evaluate(expr)
+
+print(Fore.GREEN)
+print(f"Result: {result}")
