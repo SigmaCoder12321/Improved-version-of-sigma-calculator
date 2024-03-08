@@ -1,3 +1,4 @@
+#Install the python library "numexpr"!
 import numexpr
 from colorama import init
 from colorama import Fore, Back, Style
